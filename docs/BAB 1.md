@@ -20,7 +20,7 @@ Dari total sampah yang dikelola, sebagian besar masih berakhir di tempat pembuan
 
 Data tersebut menunjukkan bahwa  **lebih dari dua pertiga sampah nasional masih belum terkelola dengan baik** , sehingga menimbulkan dampak serius terhadap lingkungan, kesehatan, serta tata kelola perkotaan. Salah satu penyebab rendahnya tingkat pengelolaan adalah  **minimnya sistem pemilahan di sumber.**
 
-https://sipsn.kemenlh.go.id/sipsn/
+Sumber 
 
 Pengelolaan sampah di lingkungan kampus merupakan isu nyata yang memerlukan solusi terukur dan berkelanjutan. Universitas Teknologi Bandung (UTB) telah menunjukkan komitmen untuk membangun *Socio-Creativepreneur University* melalui penggabungan aspek sosial dan teknologi, termasuk dalam sistem pengelolaan sampah yang berorientasi pada peningkatan nilai ekonomi serta pengurangan penumpukan sampah di area kampus. Berdasarkan hasil observasi lapangan, produksi sampah di lingkungan kampus mencapai rata-rata  **7 kantong trash bag per hari** , dengan jadwal  **pengangkutan hanya satu kali dalam seminggu** . Kondisi ini menyebabkan sampah sering menumpuk di beberapa titik apabila terjadi keterlambatan pengangkutan.
 
@@ -32,7 +32,7 @@ Dalam seminar tersebut,  **Dr. Lukman, S.T., M.Hum.** , selaku Kepala LLDIKTI Wi
 
 Melihat kondisi nasional di mana sebagian besar sampah di Indonesia masih belum terkelola dengan baik, serta tantangan pengelolaan sampah yang juga terjadi di lingkungan kampus, **Universitas Teknologi Bandung (UTB)** menempatkan isu ini sebagai fokus riset yang relevan dengan visi kampus untuk menjadi  *Socio-Creativepreneur University* . Permasalahan menumpuknya sampah akibat keterbatasan sistem pengangkutan dan belum optimalnya proses daur ulang menjadi dasar penting bagi UTB untuk mencari solusi yang lebih terukur dan efisien. Dalam konteks ini, pengembangan **Artificial Intelligence (AI)** hadir sebagai peluang strategis untuk mendukung otomatisasi pemilahan sampah, analisis data timbulan, serta peningkatan efisiensi pengelolaan lingkungan kampus. Dukungan pemerintah melalui **LLDIKTI Wilayah IV** dan dorongan langsung dari **Dr. Lukman, S.T., M.Hum.** semakin memperkuat komitmen UTB untuk mengintegrasikan AI ke dalam riset dan kurikulum, menjadikan pengelolaan sampah berbasis *computer vision* bukan hanya sebagai proyek teknologis, tetapi juga sebagai langkah nyata menuju transformasi digital kampus yang berkelanjutan dan berdaya saing.
 
-penggunaan **YOLO (You Only Look Once)** dalam penelitian ini dipilih bukan hanya karena efisiensinya dalam mendeteksi dan mengenali objek atau gambar secara real-time, tetapi juga karena  berdasarkan **tinjauan jurnal menunjukkan bahwa YOLO merupakan salah satu model terbaik untuk deteksi objek pada citra gambar** . YOLO mampu melakukan **klasifikasi dan lokalisasi secara bersamaan** dengan tingkat akurasi tinggi dan waktu pemrosesan yang cepat, menjadikannya sangat relevan untuk sistem *computer vision* di bidang pengelolaan sampah yang membutuhkan hasil deteksi langsung dari kamera atau dataset citra lapangan. Berdasarkan studi literatur, sebagian besar peneliti dalam topik serupa memilih YOLO karena  **stabil dalam berbagai kondisi pencahayaan dan latar belakang** , serta **mampu mengenali beragam jenis sampah dalam satu gambar** secara simultan, berbeda dengan model klasifikasi konvensional yang hanya mengidentifikasi satu kategori per citra. Selain itu, arsitektur YOLO yang ringan dan fleksibel juga memungkinkan implementasi di perangkat *edge computing*, menjadikannya sangat sesuai untuk **pengembangan sistem cerdas berbasis AI di lingkungan kampus** yang berfokus pada efisiensi, inovasi, dan keberlanjutan.
+[Alasan menggunakan Yolo]
 
 Data yang digunakan dalam proses *training* model YOLO pada penelitian ini terdiri dari  **sembilan kategori sampah utama** , yaitu: *botol-kaleng, box-kertas, cup-kertas, kertas, plastik, botol-plastik, box-plastik, cup-plastik, organik,* dan  *residu* . Setiap kategori memiliki **200 citra** yang diambil secara langsung dari  **lingkungan kampus Universitas Teknologi Bandung (UTB)** , sehingga dataset ini merepresentasikan **kondisi nyata sampah kampus** yang beragam dari segi bentuk, warna, dan tingkat kebersihan. Data tersebut kemudian dibagi ke dalam dua bentuk pengolahan: pertama,  **teknik klasifikasi berbasis struktur folder** , di mana setiap kategori sampah ditempatkan dalam folder terpisah untuk melatih model mengenali ciri visual khas tiap jenis; dan kedua,  **teknik labeling menggunakan Label Studio** , yang memberikan anotasi langsung pada area objek dalam citra agar YOLO dapat mempelajari posisi dan bentuk sampah secara lebih presisi. Pendekatan ganda ini dirancang untuk mencari metode terbaik dengan melakukan analisis pada nilai Akurasi, Latensi dan Ukuran Model untuk mengoptimalkan model ketika melakukan  **identifikasi dan deteksi objek sampah secara real-time**  pada Perangkat Heterogen, sekaligus memastikan bahwa sistem yang dikembangkan benar-benar relevan dengan konteks lingkungan kampus dan dapat digunakan sebagai dasar pengelolaan sampah berbasis kecerdasan buatan.
 
@@ -50,7 +50,7 @@ Rumusan masalah difokuskan pada kendala nyata yang memerlukan solusi teknis AI u
 
 ### **1.3 Tujuan Penelitian**
 
-Penelitian ini bertujuan untuk:
+Penelitian ini bertujuan untuk: minimal 2 baris
 
 1. **Menentukan konfigurasi pelatihan terbaik** (jumlah  *epoch* ,  *batch size* , dan jenis model YOLO) yang mampu memberikan *trade-off* optimal antara **akurasi deteksi, latensi, dan ukuran model** pada berbagai **perangkat heterogen** seperti laptop dan perangkat berbasis ARM.
 2. **Menganalisis performa model hasil pelatihan yang diekspor ke format ringan** , seperti TFLite atau model terkuantisasi, agar dapat dijalankan secara efisien pada **perangkat dengan sumber daya terbatas** tanpa mengorbankan akurasi secara signifikan.
@@ -60,7 +60,7 @@ Penelitian ini bertujuan untuk:
 
 ---
 
-### **1.4 Manfaat Penelitian**
+### **1.4 Manfaat Penelitian - dibuat lebih banyak**
 
 Hasil penelitian ini diharapkan memberikan manfaat bagi berbagai pihak, baik secara akademik, institusional, maupun sosial-lingkungan, sebagai berikut:
 
