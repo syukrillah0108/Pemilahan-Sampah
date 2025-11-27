@@ -1,4 +1,4 @@
-# Studi Eksperimental pada Penelitian dan Pengembangan (R&D) Sistem Deteksi Jenis Sampah Menggunakan Model YOLO: Studi Kasus pada Universitas Teknologi Bandung
+**STUDI EKSPERIMENTAL PADA PENELITIAN DAN PENGEMBANGAN (R&D) SISTEM DETEKSI JENIS SAMPAH MENGGUNAKAN MODEL YOLO: STUDI KASUS SAMPAH DI UNIVERSITAS TEKNOLOGI BANDUNG**
 
 Konfigurasi Experimen di bawah merupakan Referensi dari Hasil Review Jurnal
 
@@ -59,3 +59,6 @@ dari hasil review jurnal menunjukan semuanya menggunakan Labeling, akan tetapi a
 - FP32 (baseline)
 - FP16 (kompatibel ARM)
 - INT8 (paling kecil, mungkin turun akurasi)
+
+# PERANCANGAN PENGERJAAN
+![PENGERJAAN](./plan.svg)

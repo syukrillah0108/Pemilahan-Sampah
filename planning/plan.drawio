@@ -1,0 +1,106 @@
+<mxfile host="65bd71144e">
+    <diagram id="JZ_Fn1NxIm54UmvsboTb" name="Page-1">
+        <mxGraphModel dx="364" dy="215" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Pemotretan Sampah di TPS Kampus" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="292" y="40" width="610" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div&gt;- Filter Residu File menggunakan FFMPEG&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;- Resize 360p" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="140" width="220" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Clustering" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="150" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Labeling" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="220" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Simpan data ke Google Drive" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="140" width="145" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="415" y="100" as="sourcePoint"/>
+                        <mxPoint x="415" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="525" y="185" as="sourcePoint"/>
+                        <mxPoint x="560" y="185" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="525" y="185" as="sourcePoint"/>
+                        <mxPoint x="580" y="185" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="725" y="185" as="sourcePoint"/>
+                        <mxPoint x="770" y="185" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Google Colab" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="320" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="11" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="725" y="255" as="sourcePoint"/>
+                        <mxPoint x="770" y="255" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Training" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="320" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="21" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="843" y="290" as="sourcePoint"/>
+                        <mxPoint x="843" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="Simpan hasil training Google Drive" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="296" y="315" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="770" y="355" as="sourcePoint"/>
+                        <mxPoint x="725" y="355" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Analisis Hasil Training" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="296" y="420" width="220" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="355" as="sourcePoint"/>
+                        <mxPoint x="513" y="355" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="Kesimpulan" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="420" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="27" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="415" y="380" as="sourcePoint"/>
+                        <mxPoint x="415" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Kesimpulan" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="420" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="29" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="488" y="455" as="sourcePoint"/>
+                        <mxPoint x="580" y="455" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
