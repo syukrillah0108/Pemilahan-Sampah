@@ -21,9 +21,9 @@
 | 15           | DMP-YOLO: Dense multi-scale perception for complex scenes small target detection                                                   | Linyou Lv, Jiahui Li, Yan Zhao Smart Agricultural Technology (2025)                                                                                            | Mengatasi akurasi rendah dan kehilangan target pada buah Prunus humilis kecil di bawah oklusi parah.                                                                 | DMP-YOLO mencapai akurasi 73.5%, naik 14.3% dari YOLOv8, dengan kecepatan inferensi 0.9 ms/gambar.                                                                                     | Parameter dan GFLOPs tinggi menantang deployment pada perangkat terbatas.                                                                                                           | DMP-YOLO (73.5% mAP₅₀) mengungguli YOLOv8 (59.2% mAP₅₀).                                                      |
 | 16           | A comprehensive review on YOLO versions for object detection                                                                       | Ayşe Aybilge Murat, Mustafa Servet Kiran, Engineering Science and Technology, International Journal (2025)                                                    | Menganalisis evolusi versi YOLO (v1–v11) secara sistematis, menyoroti inovasi dan perbandingan arsitektur terbaru.                                                  | Versi YOLO terbaru berfokus pada peningkatan kecepatan, NMS-free, dan Oriented Bounding Boxes (OBB).                                                                                   | Kompleksitas tinggi membuat integrasi ke perangkat edge menantang; perlu arsitektur lebih ringan.                                                                                   | Memberikan tinjauan komprehensif evolusi YOLO dan metrik performa antarversi.                                     |
 
-Konfigurasi Experimen di bawah merupakan Referensi dari Hasil Review Jurnal
-
 # CONFIG
+
+Konfigurasi Experimen di bawah merupakan Referensi dari Hasil Review Jurnal
 
 ## Metode
 
